@@ -1,0 +1,50 @@
+name: Update progress log
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: progress-log
+  cancel-in-progress: false
+
+jobs:
+  log:
+    # Ignore the bot's own commits so the workflow does not loop.
+    if: "!startsWith(github.event.head_commit.message, '[skip log]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Record new commits and regenerate progress.tex
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            RANGE="HEAD~1..HEAD"
+          else
+            RANGE="$BEFORE..HEAD"
+          fi
+          python scripts/update_log.py "$RANGE"
+
+      - name: Commit and push
+        run: |
+          git config user.name "progress-log-bot"
+          git config user.email "progress-log-bot@users.noreply.github.com"
+          git add report/
+          if git diff --cached --quiet; then
+            echo "No log changes."
+            exit 0
+          fi
+          git commit -m "[skip log] Update progress log"
+          git pull --rebase origin main
+          git push origin HEAD:main
