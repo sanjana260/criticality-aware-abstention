@@ -1,0 +1,22 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+
+# Data & artifacts
+data/
+results/
+runs/
+models/
+*.pt
+*.safetensors
+*.gguf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
