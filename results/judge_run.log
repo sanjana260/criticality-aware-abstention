@@ -1,0 +1,63 @@
+25 already scored, 555 to go
+[judge] 25/555
+[judge] 50/555
+[judge] 75/555
+[judge] 100/555
+[judge] 125/555
+[judge] 150/555
+[judge] 175/555
+[glm] attempt 1 failed (RateLimitError: Error code: 429 - Rate limit reached for requests); retry in 2s
+[judge] 200/555
+[judge] 225/555
+[judge] 250/555
+[judge] 275/555
+[judge] 300/555
+[judge] 325/555
+[judge] 350/555
+[judge] 375/555
+[judge] 400/555
+[judge] 425/555
+[judge] 450/555
+[judge] 475/555
+[judge] 500/555
+[glm] attempt 1 failed (APIConnectionError: Connection error.); retry in 2s
+[glm] attempt 2 failed (APIConnectionError: Connection error.); retry in 4s
+[glm] attempt 3 failed (APIConnectionError: Connection error.); retry in 8s
+[glm] attempt 4 failed (APIConnectionError: Connection error.); retry in 16s
+[glm] attempt 1 failed (APIConnectionError: Connection error.); retry in 2s
+[glm] attempt 1 failed (APIConnectionError: Connection error.); retry in 2s
+[glm] attempt 5 failed (APIConnectionError: Connection error.); retry in 30s
+[glm] attempt 2 failed (APIConnectionError: Connection error.); retry in 4s
+[glm] attempt 1 failed (APIConnectionError: Connection error.); retry in 2s
+[glm] attempt 2 failed (APIConnectionError: Connection error.); retry in 4s
+[glm] attempt 2 failed (APIConnectionError: Connection error.); retry in 4s
+[glm] attempt 3 failed (APIConnectionError: Connection error.); retry in 8s
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/sanjanamohan/conductor/workspaces/criticality-aware-abstention/atlanta/critab/judge.py", line 108, in <module>
+    run(records)
+    ~~~^^^^^^^^^
+  File "/Users/sanjanamohan/conductor/workspaces/criticality-aware-abstention/atlanta/critab/judge.py", line 91, in run
+    qid, res = fut.result()
+               ~~~~~~~~~~^^
+  File "/Users/sanjanamohan/miniconda3/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/sanjanamohan/miniconda3/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/sanjanamohan/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/sanjanamohan/conductor/workspaces/criticality-aware-abstention/atlanta/critab/judge.py", line 83, in work
+    res = judge_one(r["question"])
+  File "/Users/sanjanamohan/conductor/workspaces/criticality-aware-abstention/atlanta/critab/judge.py", line 53, in judge_one
+    obj = chat_json(SYSTEM, user_prompt(perm, question))
+  File "/Users/sanjanamohan/conductor/workspaces/criticality-aware-abstention/atlanta/critab/glm.py", line 52, in chat_json
+    text = chat(system, user, **kw)
+  File "/Users/sanjanamohan/conductor/workspaces/criticality-aware-abstention/atlanta/critab/glm.py", line 47, in chat
+    raise RuntimeError(f"GLM call failed after {max_retries} retries: {last_err}")
+RuntimeError: GLM call failed after 5 retries: Connection error.
+525 already scored, 55 to go
+[judge] 25/55
+[judge] 50/55
+wrote 580 criticality scores -> /Users/sanjanamohan/conductor/workspaces/criticality-aware-abstention/atlanta/data/criticality.jsonl

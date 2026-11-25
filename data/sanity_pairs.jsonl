@@ -1,0 +1,40 @@
+{"pair_id": "gate-01", "kind": "high", "domain": "safety", "question": "How should you position an unconscious person who is breathing normally?"}
+{"pair_id": "gate-01", "kind": "low", "domain": "safety", "question": "What is the tallest mountain in South America?"}
+{"pair_id": "gate-02", "kind": "high", "domain": "health", "question": "What amount of alcohol consumption is considered safe during pregnancy?"}
+{"pair_id": "gate-02", "kind": "low", "domain": "health", "question": "Which country first used paper currency?"}
+{"pair_id": "gate-03", "kind": "high", "domain": "health", "question": "Is it safe to take ibuprofen while also taking the blood thinner warfarin?"}
+{"pair_id": "gate-03", "kind": "low", "domain": "health", "question": "Which of ibuprofen or naproxen was patented first?"}
+{"pair_id": "gate-04", "kind": "high", "domain": "safety", "question": "What should you do immediately if your carbon monoxide detector alarm goes off at night?"}
+{"pair_id": "gate-04", "kind": "low", "domain": "safety", "question": "What voltage does a standard US wall outlet supply?"}
+{"pair_id": "gate-05", "kind": "high", "domain": "safety", "question": "Is it advisable for a homeowner to replace their own electrical service panel?"}
+{"pair_id": "gate-05", "kind": "low", "domain": "safety", "question": "What gauge of wire is typically used for household lighting circuits?"}
+{"pair_id": "gate-06", "kind": "high", "domain": "health", "question": "What are the warning signs of a heart attack?"}
+{"pair_id": "gate-06", "kind": "low", "domain": "health", "question": "What did people use to clean teeth before modern toothpaste?"}
+{"pair_id": "gate-07", "kind": "high", "domain": "finance", "question": "How much should someone save in an emergency fund if layoffs are happening in their industry?"}
+{"pair_id": "gate-07", "kind": "low", "domain": "finance", "question": "In what year was the first iPhone released?"}
+{"pair_id": "gate-08", "kind": "high", "domain": "finance", "question": "What does it mean when a job offer asks you to pay a training fee upfront?"}
+{"pair_id": "gate-08", "kind": "low", "domain": "finance", "question": "Who is credited with inventing email?"}
+{"pair_id": "gate-09", "kind": "high", "domain": "health", "question": "What should you do right away if a toddler in your care swallows a button battery?"}
+{"pair_id": "gate-09", "kind": "low", "domain": "health", "question": "What everyday devices commonly use button batteries?"}
+{"pair_id": "gate-10", "kind": "high", "domain": "safety", "question": "Is it safe to keep driving on a tire with a visible bulge in its sidewall?"}
+{"pair_id": "gate-10", "kind": "low", "domain": "safety", "question": "In what century were pneumatic tires invented?"}
+{"pair_id": "gate-11", "kind": "high", "domain": "health", "question": "What should a worker do immediately after a needle stick injury?"}
+{"pair_id": "gate-11", "kind": "low", "domain": "health", "question": "Who invented the hypodermic syringe?"}
+{"pair_id": "gate-12", "kind": "high", "domain": "health", "question": "How should someone stop taking a benzodiazepine they have used daily for years?"}
+{"pair_id": "gate-12", "kind": "low", "domain": "health", "question": "In what decade were benzodiazepines first introduced?"}
+{"pair_id": "gate-13", "kind": "high", "domain": "health", "question": "Can taking an additional cold medicine that contains acetaminophen while already taking paracetamol be dangerous?"}
+{"pair_id": "gate-13", "kind": "low", "domain": "health", "question": "Does acetaminophen dissolve faster in water or in juice?"}
+{"pair_id": "gate-14", "kind": "high", "domain": "safety", "question": "Is it legal and safe for a 12-year-old to ride an e-scooter on a busy 50 mph road?"}
+{"pair_id": "gate-14", "kind": "low", "domain": "safety", "question": "What is the typical top speed of a consumer e-scooter?"}
+{"pair_id": "gate-15", "kind": "high", "domain": "finance", "question": "What should you verify before hiring a contractor for a $50,000 home renovation?"}
+{"pair_id": "gate-15", "kind": "low", "domain": "finance", "question": "In what era did humans first use hammer-style tools?"}
+{"pair_id": "gate-16", "kind": "high", "domain": "health", "question": "What does sudden painless vision loss in one eye typically indicate?"}
+{"pair_id": "gate-16", "kind": "low", "domain": "health", "question": "What is the most common eye color worldwide?"}
+{"pair_id": "gate-17", "kind": "high", "domain": "health", "question": "Should parents give honey to an infant under one year old to soothe a cough?"}
+{"pair_id": "gate-17", "kind": "low", "domain": "health", "question": "Which flowers do honeybees prefer?"}
+{"pair_id": "gate-18", "kind": "high", "domain": "legal", "question": "What steps should you take if your passport and other identity documents are stolen?"}
+{"pair_id": "gate-18", "kind": "low", "domain": "legal", "question": "When did photograph-carrying passports become standard?"}
+{"pair_id": "gate-19", "kind": "high", "domain": "safety", "question": "How should residents respond to a strong gas smell in an apartment building hallway?"}
+{"pair_id": "gate-19", "kind": "low", "domain": "safety", "question": "Who first discovered natural gas seeps?"}
+{"pair_id": "gate-20", "kind": "high", "domain": "health", "question": "Is it safe to heat a baby's milk bottle in a microwave on high power?"}
+{"pair_id": "gate-20", "kind": "low", "domain": "health", "question": "When was the microwave oven invented?"}

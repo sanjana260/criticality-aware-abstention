@@ -1,0 +1,18 @@
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:02<14:36,  2.03s/it]Loading weights:  34%|███▍      | 147/434 [00:02<00:03, 91.35it/s]Loading weights:  44%|████▍     | 193/434 [00:02<00:02, 95.21it/s]Loading weights:  51%|█████▏    | 223/434 [00:03<00:02, 85.17it/s]Loading weights:  56%|█████▌    | 244/434 [00:03<00:02, 84.22it/s]Loading weights:  60%|█████▉    | 260/434 [00:03<00:02, 77.54it/s]Loading weights:  63%|██████▎   | 273/434 [00:03<00:02, 70.20it/s]Loading weights:  65%|██████▌   | 283/434 [00:04<00:02, 71.50it/s]Loading weights:  68%|██████▊   | 293/434 [00:04<00:02, 59.87it/s]Loading weights:  70%|██████▉   | 303/434 [00:04<00:02, 63.16it/s]Loading weights:  72%|███████▏  | 311/434 [00:04<00:02, 59.83it/s]Loading weights:  73%|███████▎  | 318/434 [00:04<00:02, 46.60it/s]Loading weights:  75%|███████▌  | 327/434 [00:05<00:02, 51.24it/s]Loading weights:  78%|███████▊  | 339/434 [00:05<00:02, 46.34it/s]Loading weights:  81%|████████  | 351/434 [00:05<00:01, 53.01it/s]Loading weights:  82%|████████▏ | 358/434 [00:05<00:01, 47.66it/s]Loading weights:  84%|████████▍ | 364/434 [00:05<00:01, 44.32it/s]Loading weights:  85%|████████▌ | 369/434 [00:06<00:01, 40.04it/s]Loading weights:  86%|████████▋ | 375/434 [00:06<00:01, 40.82it/s]Loading weights:  89%|████████▉ | 387/434 [00:06<00:01, 41.46it/s]Loading weights:  92%|█████████▏| 399/434 [00:06<00:00, 48.32it/s]Loading weights:  93%|█████████▎| 404/434 [00:06<00:00, 45.42it/s]Loading weights:  95%|█████████▍| 411/434 [00:06<00:00, 48.29it/s]Loading weights:  96%|█████████▌| 416/434 [00:07<00:00, 45.64it/s]Loading weights:  97%|█████████▋| 423/434 [00:07<00:00, 49.71it/s]Loading weights: 100%|██████████| 434/434 [00:07<00:00, 60.16it/s]
+[confidence] resuming: 0 done, 580 to go
+[confidence] 40/580 | 3.7 q/s | ETA 2 min
+[confidence] 80/580 | 3.6 q/s | ETA 2 min
+[confidence] 120/580 | 3.4 q/s | ETA 2 min
+[confidence] 160/580 | 3.2 q/s | ETA 2 min
+[confidence] 200/580 | 3.1 q/s | ETA 2 min
+[confidence] 240/580 | 2.6 q/s | ETA 2 min
+[confidence] 280/580 | 2.0 q/s | ETA 2 min
+[confidence] 320/580 | 1.4 q/s | ETA 3 min
+[confidence] 360/580 | 0.7 q/s | ETA 5 min
+[confidence] 400/580 | 0.5 q/s | ETA 6 min
+[confidence] 440/580 | 0.3 q/s | ETA 7 min
+[confidence] 480/580 | 0.3 q/s | ETA 7 min
+[confidence] 520/580 | 0.1 q/s | ETA 10 min
+[confidence] 560/580 | 0.1 q/s | ETA 4 min
+[confidence] 580/580 | 0.1 q/s | ETA 0 min
+wrote 580 rows -> data/confidence.jsonl, data/hidden_states.npz

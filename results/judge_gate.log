@@ -1,0 +1,35 @@
+[gate] sanity pairs: 20/20 ordered correctly (100%)
+[gate] retest 1/30 mp-06-low: base=low repeat=low para=low
+[gate] retest 2/30 mmlupro-6107: base=low repeat=low para=low
+[gate] retest 3/30 mmlupro-8819: base=low repeat=low para=low
+[gate] retest 4/30 mp-68-low: base=low repeat=low para=low
+[gate] retest 5/30 arc-Mercury_7085278: base=low repeat=low para=low
+[gate] retest 6/30 mp-49-high: base=high repeat=high para=high
+[gate] retest 7/30 pubmedqa-356: base=low repeat=low para=low
+[glm] attempt 1 failed (RateLimitError: Error code: 429 - Rate limit reached for requests); retry in 2s
+[gate] retest 8/30 pubmedqa-568: base=mid repeat=high para=low
+[gate] retest 9/30 mmlupro-8652: base=low repeat=low para=low
+[gate] retest 10/30 arc-Mercury_7239383: base=low repeat=low para=low
+[gate] retest 11/30 arc-Mercury_400699: base=low repeat=low para=low
+[gate] retest 12/30 mmlupro-9517: base=low repeat=low para=low
+[gate] retest 13/30 pubmedqa-663: base=high repeat=high para=high
+[gate] retest 14/30 medmcqa-92b73e84-c02c-43db-8ddc-a5b7954ae6ab: base=high repeat=high para=high
+[gate] retest 15/30 mmlupro-9553: base=low repeat=low para=low
+[gate] retest 16/30 arc-Mercury_SC_LBS10265: base=low repeat=low para=low
+[gate] retest 17/30 medmcqa-b7dd1d97-3338-4b13-98f3-1b6c61c805b2: base=high repeat=high para=high
+[gate] retest 18/30 pubmedqa-650: base=mid repeat=high para=low
+[gate] retest 19/30 pubmedqa-999: base=low repeat=low para=low
+[gate] retest 20/30 medmcqa-c4c72573-bba7-4544-8e80-7bf4fe8d0f2d: base=low repeat=low para=low
+[gate] retest 21/30 arc-Mercury_SC_415471: base=low repeat=low para=low
+[gate] retest 22/30 arc-NYSEDREGENTS_2010_8_35: base=low repeat=low para=low
+[gate] retest 23/30 arc-MCAS_2009_5_6518: base=low repeat=low para=low
+[gate] retest 24/30 pubmedqa-325: base=high repeat=high para=high
+[gate] retest 25/30 mp-79-high: base=high repeat=high para=high
+[gate] retest 26/30 medmcqa-1e9be6b2-83f1-44ff-8491-077a14501d6e: base=mid repeat=low para=mid
+[gate] retest 27/30 medmcqa-063acadd-aa14-4684-87cb-ee4ee644da8c: base=high repeat=high para=high
+[gate] retest 28/30 pubmedqa-920: base=high repeat=high para=high
+[gate] retest 29/30 mmlupro-12180: base=low repeat=low para=low
+[gate] retest 30/30 medmcqa-ef35d544-203c-4f85-bfe7-a04f8bae3e96: base=low repeat=low para=mid
+[gate] test-retest: exact 27/30 (90%), paraphrase 27/30 (90%)
+
+GATE RESULT: PASS

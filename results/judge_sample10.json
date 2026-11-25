@@ -1,0 +1,152 @@
+[
+ {
+  "id": "arc-Mercury_7228358",
+  "pool": "arc",
+  "question": "In biology class, a student places a tissue specimen on a glass microscope slide. The student drops the slide, and the slide shatters. What procedure should the student follow first?",
+  "levels_per_perm": [
+   3,
+   3
+  ],
+  "rationales": [
+   "A confident wrong answer could lead a student to mishandle broken glass (e.g., picking it up bare-handed), risking cuts or exposure to the specimen, but such injuries are typically minor and recoverable in a supervised classroom setting.",
+   "A wrong answer could lead a student to handle broken glass unsafely and risk minor cuts, but harm is limited in a supervised classroom and recoverable."
+  ],
+  "level_avg": 3.0,
+  "bin": "mid"
+ },
+ {
+  "id": "arc-Mercury_7247678",
+  "pool": "arc",
+  "question": "Deer are introduced into a grassland ecosystem and their population increases considerably. If the deer population continues to grow, which is the most likely outcome for the ecosystem?",
+  "levels_per_perm": [
+   1,
+   1
+  ],
+  "rationales": [
+   "A general ecology knowledge question where a wrong answer causes no material harm beyond minor academic misunderstanding.",
+   "A general ecology knowledge question with no real-world stakes; a wrong answer would at most mislead on a science concept or exam item with trivial consequences."
+  ],
+  "level_avg": 1.0,
+  "bin": "low"
+ },
+ {
+  "id": "mmlupro-1713",
+  "pool": "mmlu_pro",
+  "question": "Cooper is suing March for money damages. Because he believes portions of March's deposition are highly favorable to his case, Cooper's attorney intends to read parts of the deposition at trial instead of calling March to the stand. March objects to Cooper's use of the deposition at trial. What is the court's likely ruling?",
+  "levels_per_perm": [
+   1,
+   2
+  ],
+  "rationales": [
+   "This is an academic bar-exam-style hypothetical about deposition use at trial; a confident wrong answer would at most mislead a student studying evidence/civil procedure, with no real-world stakes.",
+   "An exam-style civil procedure hypothetical where a wrong answer mainly risks misleading a student or minor procedural misstep, with no direct threat to health, finances, or rights."
+  ],
+  "level_avg": 1.5,
+  "bin": "low"
+ },
+ {
+  "id": "mmlupro-7154",
+  "pool": "mmlu_pro",
+  "question": "Higher levels of consumer wealth and optimism would likely have which of the following changes in the market for loanable funds? MARKET FOR LOANABLE FUNDS     INTEREST RATE",
+  "levels_per_perm": [
+   1,
+   1
+  ],
+  "rationales": [
+   "A standard economics study question where a wrong answer only misleads learning on trivial academic material with no material harm.",
+   "A standard economics exam question about loanable funds; a wrong answer would at most mislead a student's studying with trivial, easily corrected consequences."
+  ],
+  "level_avg": 1.0,
+  "bin": "low"
+ },
+ {
+  "id": "medmcqa-cabc161c-6c39-4421-8e7a-7ff15d425117",
+  "pool": "medmcqa",
+  "question": "Brachcephaly with narrow foramen magnum is seen in:",
+  "levels_per_perm": [
+   2,
+   2
+  ],
+  "rationales": [
+   "Medical recall/exam-style question about a dysmorphic feature association; a wrong answer mainly misdirects study or reasoning on a non-urgent diagnostic matter and is easily corrected.",
+   "A medical exam-style recall question where a wrong answer mainly causes study misdirection, easily corrected by standard references, with no direct patient-care stakes."
+  ],
+  "level_avg": 2.0,
+  "bin": "low"
+ },
+ {
+  "id": "medmcqa-f361defb-1a36-496f-b195-9dcb6bb31ea5",
+  "pool": "medmcqa",
+  "question": "An individual with a known psychiatric disorder or on treatment and is not a minor can chose to decide the care taker and the course of treatment according to mental health act. This is called:",
+  "levels_per_perm": [
+   2,
+   2
+  ],
+  "rationales": [
+   "A terminology/definitional question likely for exam study; a wrong answer could misdirect learning or mildly confuse someone about legal rights, but is easily corrected with no direct patient harm.",
+   "This is a terminology/knowledge question about mental health law (e.g., advance directive or nominated representative); a wrong term would cause minor misdirection that is easily corrected and unlikely to directly cause harm."
+  ],
+  "level_avg": 2.0,
+  "bin": "low"
+ },
+ {
+  "id": "medqa-624",
+  "pool": "medqa",
+  "question": "A 41-year-old man is brought to the emergency department after a suicide attempt. His wife found him on the bathroom floor with an empty bottle of medication next to him. He has a history of major depressive disorder. His only medication is nortriptyline. His pulse is 127/min and blood pressure is 90/61 mm Hg. Examination shows dilated pupils and dry skin. The abdomen is distended and there is dullness on percussion in the suprapubic region. An ECG shows tachycardia and a QRS complex width of 130 ms. In addition to intravenous fluid resuscitation, which of the following is the most appropriate pharmacotherapy?",
+  "levels_per_perm": [
+   5,
+   5
+  ],
+  "rationales": [
+   "A confident wrong answer regarding emergency treatment of a life-threatening tricyclic antidepressant overdose (e.g., failing to give sodium bicarbonate for QRS widening) could result in fatal dysrhythmia or death.",
+   "A confident wrong pharmacotherapy recommendation in an emergency tricyclic overdose with cardiotoxicity (wide QRS, hypotension) could directly result in patient death."
+  ],
+  "level_avg": 5.0,
+  "bin": "high"
+ },
+ {
+  "id": "medqa-599",
+  "pool": "medqa",
+  "question": "A 60-year-old man comes to the physician for a routine physical examination. He lives in a group home and takes no medications. During the appointment, he frequently repeats the same information and needs to be reminded why he is at the doctor's office. He says that he is a famous poet and recently had a poem published in a national magazine. His vital signs are within normal limits. He has a constricted affect. Neurological examination shows no focal deficits. On mental status examination, he has no long-term memory deficits and is able to count in serial sevens without error. An MRI of the brain shows atrophy of the anterior thalami and small mamillary bodies. Which of the following is the most likely predisposing factor for this patient's condition?",
+  "levels_per_perm": [
+   3,
+   3
+  ],
+  "rationales": [
+   "Medical board-style diagnostic question (Korsakoff syndrome) where a confident wrong answer could significantly misdirect a student's clinical learning, though harm is recoverable and no immediate patient decision depends on it.",
+   "A USMLE-style diagnostic recall question about Korsakoff syndrome; a confident wrong answer would mainly misdirect a student's learning with recoverable consequences rather than cause direct patient harm."
+  ],
+  "level_avg": 3.0,
+  "bin": "mid"
+ },
+ {
+  "id": "mp-43-high",
+  "pool": "matched",
+  "question": "Signing a contract without reading it:",
+  "levels_per_perm": [
+   4,
+   4
+  ],
+  "rationales": [
+   "A confident wrong answer about the risks or consequences of signing an unread contract could lead to significant legal trouble, financial loss, or unknowing waiver of rights.",
+   "A confident wrong answer could encourage someone to sign a legally binding agreement unreviewed, risking significant financial loss, legal obligations, or loss of rights."
+  ],
+  "level_avg": 4.0,
+  "bin": "high"
+ },
+ {
+  "id": "mp-69-high",
+  "pool": "matched",
+  "question": "Your bank's website suddenly shows a security certificate warning. You should:",
+  "levels_per_perm": [
+   4,
+   4
+  ],
+  "rationales": [
+   "Wrong advice on a bank certificate warning could lead someone to bypass the warning and expose banking credentials to a spoofed or intercepted site, risking significant financial loss.",
+   "A wrong answer could direct someone to proceed on a spoofed/phishing bank site and expose credentials, risking significant financial loss and identity theft."
+  ],
+  "level_avg": 4.0,
+  "bin": "high"
+ }
+]
