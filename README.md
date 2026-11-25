@@ -41,7 +41,7 @@ python3 -m critab.plots              # figures -> results/*.png
 
 ## Layout
 
-- `critab/` pipeline modules; `scripts/` gates and runners; `data/` artifacts (gitignored);
-  `results/` evaluation outputs, figures, report.
+- `critab/` pipeline modules; `scripts/` gates and runners; `data/` question pools and run
+  artifacts; `results/` evaluation outputs, figures, report.
 - `LITERATURE_REVIEW.md` — related-work survey and gap analysis (Nov 2026).
 - The experiment draft lives at `.context/attachments/waaHhV/RDFA Experiment 1.md` (untracked).

@@ -3,9 +3,7 @@
 .env.*
 *.key
 
-# Data & artifacts
-data/
-results/
+# Artifacts
 runs/
 models/
 *.pt
